@@ -30,7 +30,7 @@ vf_heatmap <- function (.data, mapping,
     p <- p + scale_fill_gradient(limits = fill_limits, low = low_color, high = high_color)
     p <- p + scale_x_continuous(breaks = seq(from = -27, to = 21, by = 6))
     p <- p + scale_y_continuous(breaks = seq(from = -21, to = 21, by = 6))
-    p <- p + labs(title = title, x = "", y = "", fill = "")
+    p <- p + labs(title = title, subtitle = subtitle, x = "", y = "", fill = "")
     p <- p + theme(panel.border = element_blank(), legend.position = legend_position)
     p <- p + coord_fixed()
 

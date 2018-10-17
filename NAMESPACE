@@ -2,7 +2,9 @@
 
 export(box_hist)
 export(my_coef)
+export(my_waffle)
 export(theme_nik)
 export(vf_heatmap)
 import(ggplot2)
 import(patchwork)
+import(waffle)

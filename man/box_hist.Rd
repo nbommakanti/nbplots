@@ -2,7 +2,7 @@
 % Please edit documentation in R/box_hist.R
 \name{box_hist}
 \alias{box_hist}
-\title{Define function to create boxplot/histograms}
+\title{Create histograms with horizontal boxplots above}
 \usage{
 box_hist(.data, mapping, binwidth = 1, title = NULL, subtitle = NULL,
   x_label = NULL, y_label = NULL, x_limits = NULL, y_limits = NULL,
@@ -13,5 +13,5 @@ box_hist(.data, mapping, binwidth = 1, title = NULL, subtitle = NULL,
 \item{line_intercept}{}
 }
 \description{
-Define function to create boxplot/histograms
+A similar visualization can be created with
 }

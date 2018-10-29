@@ -2,7 +2,7 @@
 % Please edit documentation in R/my_waffle.R
 \name{my_waffle}
 \alias{my_waffle}
-\title{Title}
+\title{Simple wrapper around waffle()}
 \usage{
 my_waffle(.data, title = NULL,
   x_lab = "(One Square Represents 10,000 Visual Fields)",
@@ -13,5 +13,5 @@ my_waffle(.data, title = NULL,
 \item{font_family}{}
 }
 \description{
-Title
+Simple wrapper around waffle()
 }

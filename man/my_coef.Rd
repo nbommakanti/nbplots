@@ -8,7 +8,7 @@ my_coef(.data, x_mapping = "estimate", y_mapping = "term",
   exclude_intercept = FALSE, title = "Coefficients plot",
   subtitle = "with 95\% confidence interval", x_label = "",
   y_label = "", x_limits = NULL, y_limits = NULL, fill = "#69727a",
-  color = "#414649", breaks = NULL)
+  color = "#414649", breaks = NULL, x_digits = 1)
 }
 \arguments{
 \item{breaks}{}

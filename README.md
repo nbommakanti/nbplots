@@ -7,7 +7,7 @@ A collection of miscellaneous helper functions for my plots.
 
 Likely the most useful code in this package is the function which makes it easier to create this:
 
-![alt text](https://github.com/nbommakanti/nbplots/images/example.png)
+![alt text](images/example.png)
 
 
 ### Background

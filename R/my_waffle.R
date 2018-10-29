@@ -1,5 +1,5 @@
-# Define function to make waffle plot
-#' Title
+#' Simple wrapper around waffle()
+#'
 #'
 #' @param .data
 #' @param title

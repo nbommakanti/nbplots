@@ -1,4 +1,6 @@
-#' Define function to create boxplot/histograms
+#' Create histograms with horizontal boxplots above
+#'
+#' A similar visualization can be created with
 #'
 #' @param .data
 #' @param mapping
@@ -77,4 +79,6 @@ box_hist <- function (.data, mapping,
     # Combine
     p <- p_box + p_hist + plot_layout(nrow = 2, heights = c(1, 15))
 
+    # Return
+    p
 }

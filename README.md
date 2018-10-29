@@ -1,7 +1,10 @@
 # NB Plots
 
-A collection of miscellaneous helper functions for my plots.
+This is a collection of miscellaneous helper functions for my plots.
 
+The code in this repository was used to create the plots for my 2018 AAO presentation.
+
+Navigate to the `R` folder to see the code.
 
 ## Generating a 24-2 plot
 
@@ -13,12 +16,14 @@ Likely the most useful code in this package is the function which makes it easie
 ### Background
 This is currently a two step process:
 
-1. Left join to VF map and create facet plot facetted by VF location
+1. Left join to VF map and create plot facetted by VF location
 2. Convert to a grob object then remove the empty locations
 
-It would be more convenient for this to be a one-step process so a user could simply call `vf_plot` similar to `ggplot`,  however converting back from a grob to a ggplot with ggplotify::as.ggplot does not allow for appropriate manipulation of the labels, scale, etc. as with a true ggplot.
+1 and 2 are done automatically using the `add_vf_locations()` and `vf_plot` functions.
 
-For this reason we will remain with the two-step process for now
+*Note* that it would be more convenient for this to be a one-step process, e.g. where the user could simply call `vf_plot` in a similar manner to `ggplot`.
+
+The problem with this approach is that converting back from a grob to a ggplot is not trivial, even with helper functinos such as `ggplotify::as.ggplot` (in my testing this does not allow for appropriate manipulation of the labels, scale, etc. as with a true ggplot). If you have suggestions for improvement, please feel free to let me know.
 
 ### Operation
 

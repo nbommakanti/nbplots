@@ -8,7 +8,7 @@ Navigate to the `R` folder to see the code.
 
 ## Generating a 24-2 plot
 
-Likely the most useful code in this package is the function which makes it easier to create this:
+Likely the most useful code in this package are the functions which make it easier to create this:
 
 ![alt text](images/example.png)
 

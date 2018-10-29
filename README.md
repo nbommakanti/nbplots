@@ -66,6 +66,7 @@ As noted above, if you want to adjust any aspects of the plot, do this before th
 # Plot, making sure to facet_wrap by location and with 8 rows
 p <- ggplot(to_plot, aes(time, totaldev))
 p <- p + geom_point(color = "darkblue")
+p <- p + geom_smooth(method = "lm", color = "darkred")
 p <- p + labs(title = "My outstanding 24-2 plot")
 p <- p + facet_wrap(. ~ location, nrow = 8)
 ```

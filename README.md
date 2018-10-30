@@ -21,7 +21,7 @@ I considered a few approaches to creating a 24-2 plot. The approach I use here m
 ### Approach
 The general approach is:
 
-1. Arrange the plots in a 9x8 grid.
+1. Arrange the plots in an 8x9 grid.
 2. Remove the empty plots.
 
 We will accomplish step 1 by joining our data:

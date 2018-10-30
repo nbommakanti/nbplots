@@ -21,7 +21,7 @@ I considered a few approaches to creating a 24-2 plot. The approach I use here m
 ### Approach
 The general approach is:
 
-1. Arrange the plots in an 8x9 grid.
+1. Arrange the plots in an 8x9 grid, generating empty (blank) plots in the areas to be removed.
 2. Remove the empty plots.
 
 We will accomplish step 1 by joining our data:
@@ -81,7 +81,7 @@ The result will look like this:
 | 21 | -21 | NA       | NA        | 72       |
 
 
-The missing values are expected. Remember that we do not expect there to be values at (21, -21), the bottom right corner.
+The missing values are expected. Remember that, for example, we do not expect there to be values at the bottom right corner. We can see this above -- data are missing for coordinate pair (21, -21), location 72.
 
 We can then do step 2.
 

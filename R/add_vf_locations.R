@@ -5,6 +5,7 @@
 #' @return
 #' @export
 #' @import data.table
+#' @import here
 #'
 #' @examples
 add_vf_locations <- function(data) {

@@ -1,3 +1,5 @@
+**Update 2/20/18**: See [vf_pyplot](https://github.com/nbommakanti/vf_pyplot) for an alternative, arguably simpler approach using Python and Matplotlib.
+
 # NB Plots
 
 This is a collection of miscellaneous helper functions for my plots.

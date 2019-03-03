@@ -9,9 +9,6 @@ strip_empty(p)
 \arguments{
 \item{p}{}
 }
-\value{
-
-}
 \description{
 Define internal function to strip empty grobs from facet plot
 }

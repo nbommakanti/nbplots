@@ -3,7 +3,7 @@
 #' @param p
 #'
 #' @return
-#'
+#' @export
 #' @examples
 strip_empty <- function(p) {
     g <- ggplotGrob(p)

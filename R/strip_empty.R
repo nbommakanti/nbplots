@@ -3,6 +3,7 @@
 #' @param p
 #'
 #' @return
+#' @import grid
 #' @export
 #' @examples
 strip_empty <- function(p) {
